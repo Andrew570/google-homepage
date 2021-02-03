@@ -18,14 +18,37 @@ li {
     padding: 10px;
 }
 
+.gmail {
+    margin-top: 9px;
+}
+
+.image {
+    margin-top: 9px;
+}
+
 i {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #453c3c;
 }
 
 ul li a {
     color: #453c3c;
     text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* -- logo --*/
+
+#logo {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
