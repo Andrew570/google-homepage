@@ -51,4 +51,70 @@ ul li a:hover {
 img {
     max-width: 100%;
     height: auto;
+    margin-top: 150px;
+}
+
+/* -- search bar --*/
+
+#search-bar {
+    margin-top: 30px;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    border: 1px solid darkgrey;
+    border-radius: 30px;
+    height: 35px;
+}
+
+form :hover {
+    box-shadow: 3px 3px 5px 1px #ccc;
+}
+
+@media (max-width:1024px) {
+    input {
+        width: 45%;
+    }
+}
+
+@media (max-width:768px) {
+    input {
+        width: 60%;
+    }
+}
+
+@media (max-width:425px) {
+    input {
+        width: 75%;
+    }
+
+    img {
+        max-width: 50%;
+        height: auto;
+        margin-top: 150px;
+    }
+}
+
+/* --- Button --- */
+
+.button-box {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+
+[type=submit]:hover {
+    box-shadow: 3px 3px 5px 1px #ccc;
+    color: black;
+    cursor: pointer;
 }
